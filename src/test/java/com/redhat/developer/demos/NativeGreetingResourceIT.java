@@ -1,8 +1,8 @@
-package org.acme.getting.started;
+package com.redhat.developer.demos;
 
-import io.quarkus.test.junit.NativeImageTest;
+import io.quarkus.test.junit.SubstrateTest;
 
-@NativeImageTest
+@SubstrateTest
 public class NativeGreetingResourceIT extends GreetingResourceTest {
 
     // Execute the same tests but in native mode.
